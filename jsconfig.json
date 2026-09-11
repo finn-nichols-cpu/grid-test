@@ -9,7 +9,8 @@
         "experimentalDecorators": false,
         "strictNullChecks": true,
         "strictFunctionTypes": true,
-        "strict": true
+        "strict": true,
+        "lib": ["ES2024", "DOM", "DOM.Iterable"],
     },
     "exclude": [
         "node_modules",
