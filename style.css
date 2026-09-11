@@ -1,0 +1,18 @@
+.grid-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 20px;
+}
+
+.grid-object {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50px;
+}
+.grid-object:active {
+    width: 100px;
+    height: 100px;
+    background-image: url("red-x.png");
+    border-radius: 50px;
+}
