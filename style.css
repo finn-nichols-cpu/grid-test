@@ -10,7 +10,7 @@
     background-color: black;
     border-radius: 50px;
 }
-.grid-object:active {
+.grid-object-clicked {
     width: 100px;
     height: 100px;
     background-image: url("red-x.png");
